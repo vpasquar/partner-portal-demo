@@ -1,0 +1,33 @@
+
+.main-content-container {
+	padding:30px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+.main-content-container > div {
+	flex:1;
+}
+
+
+.paper {
+	margin:85px 25px 170px;
+	height:auto;
+}
+
+.paper:last-child {
+	margin-bottom:170px;
+}
+
+
+
+
+
+@media only screen and (min-width: 960px) {
+
+    .main-content-container {
+    	flex-direction:row;
+    }
+
+}
